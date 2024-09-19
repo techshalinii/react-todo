@@ -4,6 +4,7 @@ import axios from "axios";
 import { Context, server } from "../main";
 import toast from "react-hot-toast";
 
+
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
